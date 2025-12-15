@@ -9,12 +9,24 @@
     border-radius: 16px;
 }
 
-.custom-card {
-    position: absolute;
-    bottom: -40px;       
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    border-radius: 16px;
-    width: 80%;
+@media (min-width: 768px) {
+    .custom-card {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        background: #fff;
+        border-radius: 16px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .custom-card {
+        position: static;
+        transform: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
