@@ -9,6 +9,7 @@
     border-radius: 16px;
 }
 
+/* Desktop only */
 @media (min-width: 768px) {
     .custom-card {
         position: absolute;
@@ -21,7 +22,7 @@
     }
 }
 
-
+/* Mobile */
 @media (max-width: 767px) {
     .custom-card {
         position: static;
